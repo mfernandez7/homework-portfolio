@@ -1,0 +1,31 @@
+header {
+	text-align: center;
+	background-image: url(https://www.sia.psu.edu/sites/default/files/styles/content_header/public/nyc_skyline.jpg?itok=0Lk7TAnG);
+	background-size: 1500px 1000px;
+	background-repeat: no-repeat;
+}
+li {
+	text-align: center;
+	display: inline;
+	padding: 0px 10px 0px 10px;
+}
+
+h1 {
+	text-align: center;
+	color: white;
+	font-family: serif;
+}
+
+ul {
+	padding: 10px;
+	background-color: black;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+form {
+	border: 3px solid black;
+}
