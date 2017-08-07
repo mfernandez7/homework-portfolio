@@ -1,9 +1,11 @@
+/* Paris - for some reason I can't get the image to appear in the header*/
 header {
 	text-align: center;
 	background-image: url(https://www.sia.psu.edu/sites/default/files/styles/content_header/public/nyc_skyline.jpg?itok=0Lk7TAnG);
 	background-size: 1500px 1000px;
 	background-repeat: no-repeat;
 }
+
 li {
 	text-align: center;
 	display: inline;
@@ -18,7 +20,6 @@ h1 {
 
 ul {
 	padding: 10px;
-	background-color: black;
 }
 
 a {
@@ -28,4 +29,8 @@ a {
 
 form {
 	border: 3px solid black;
+}
+
+body {
+	background-color: #F0F8FF;
 }
