@@ -1,7 +1,7 @@
 /*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
+Project Name: Relaxr Landing PAge
+Client: Relaxr
+Author: Missy Fernandez
 Developer @GA in NYC
 */
 
@@ -61,47 +61,160 @@ body {
 #container {
   width: 100%;
   margin: auto;
-  height: 500px;
+  height: 330px;
   background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
   background-size: cover;
-
 }
 
 header {
-
+  margin-left: 60px;
+  margin-top: 20px;
+  float: left;
+  width: 100%;
 }
 
 footer {
-
+  font-size: 9px;
+  font-weight: bold;
+  color: #606161;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 
-h1 {
-  font-size: 24px;
-  font-weight: extrabold;
-  color: white;
-  padding-left: 75px;
-  padding-top: 15px;
+body {
+  font-family: archivo;
+  border: none;
 }
 
-h2 {
+.logo {
   font-size: 24px;
-  font-weight: semibold;
-  color: white;
-  text-align: center;
-  margin-top: 50px;
+  font-weight: bolder;
 }
 
-button {
-  background-color: #f9e42e;
-  font-weight: extrabold;
+#button1 {
   font-size: 14px;
-  height: 60px;
-  width: 100px;
-  border-radius: 5px;
+  font-weight: bolder;
+  padding: 5px;
+  background-color: #f9e42e;
+  width: 130px;
+  border-radius: 5px; 
+  align-items: center;
+  margin: auto;
+  border: none;
 }
 
+#button2 {
+  color: white;
+  font-size: 12px;
+  font-weight: bolder;
+  padding: 5px;
+  background-color: #033048;
+  width: 150px;
+  border-radius: 5px;
+  border: none;
+}
 
+.list {
+  font-size: 13px;
+  font-weight: lighter;
+  color: #606161;
+  list-style-type: disc;
+}
+
+ul {
+  margin-left: 30px;
+}
+
+li {
+  text-indent: -6px;
+}
+
+#headline {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+#quote {
+  color: #606161;
+  font-size: 18px;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+#signature {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+#listheader {
+  font-size: 20px;
+  font-weight: bold;
+  color: #121212;
+}
+
+#block1 {
+  padding-top: 90px;
+  padding-bottom: 45px;
+  text-align: center;
+}
+
+#block2 {
+  background-color: #f0efef;
+  padding-top: 60px;
+  padding-left: 60px;
+  padding-bottom: 30px;
+}
+
+#block3 {
+  background-image: url("testimonial_bg.jpg");
+  width: 100%;
+  height: 190px;
+  background-size: cover;
+  background: url(../images/testimonial_bg.jpg) no-repeat center top;
+  padding-top: 35px;
+  text-align: center;
+  background-size: 100% 100%;
+}
+
+#block4 {
+  width: 100%;
+  height: 60px;
+  background-color: #f9e42e;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+#block5 {
+  height: 200px;
+  text-align: center;
+  background-color: #121212;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+#twiiter {
+  width: 30px;
+  height: 30px;
+}
+
+#facebook {
+  width: 15;
+  height: 20px;
+}
+
+img {
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-top: 30px; 
+}
+
+html {
+  margin: 0px;
+}
