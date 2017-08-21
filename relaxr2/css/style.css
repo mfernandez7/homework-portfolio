@@ -60,35 +60,57 @@ body {
 /*******************************************/
 
 /* Center the container */
-#container {
-  width: 960px;
-  margin: auto;
+
+
+
+/* element formatting*/
+
+body {
+  background-color: #f0efef;
 }
 
 header {
-  height: 90px;
-  width: 100%;
   background-color: #033048;
   color: white;
+  clear: both;
+  width: 100%;
 }
 
 #headerlogo {
-  padding-left: 90px;
-  padding-top: 30px;
+  width: 30%;
+  padding-top: 5px;
+  padding-left: 50px;
+  display: inline-block;
+  clear: both;
 }
 
 nav {
 float: right;
-display: inline;
+clear: both;
+display: inline-block;
 font-weight: bold;
 color: #f9e42e;
 font-size: 24px;
-width: 600px;
+width: 40%
+}
+
+#maincolumn {
+  width: 700px;
+  margin-top: 50px;
+  margin-left: 70px;
+  float: left;
+}
+
+#sidebar {
+  width: 240px;
+  float: right;
+  display: inline-block;
+  margin-top: 45px; 
 }
 
 ul {
     list-style-type: none;
-    padding-top: 10px;
+    padding-top: 5px;
 }
 
 li {
@@ -96,31 +118,126 @@ li {
   padding-right: 30px;
 }
 
+a:hover {
+  color: red; 
+}
+
+.article {
+  border-bottom: 2px solid #121212;
+  clear: both;
+  display: inline-block;
+}
+
+.readmore {
+  color: #033048;
+  font-size: 24px;
+  font-weight: bold; 
+  float: right;
+  clear: both;
+  display: inline-block;
+}
+
+button {
+  background-color: #033048;
+  color: #606161;
+  width: 170px;
+  border-radius: 5px; 
+  border: none;
+  padding: 5px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+#divider {
+  background-color: #f9e42e;
+  width: 100%;
+  height: 75px;
+  clear: both;
+  text-align: center;
+  padding-top: 20px;
+  margin-top: 100px;
+  display: block;
+}
+
+footer {
+  height: 200px;
+  text-align: center;
+  background-color: #121212;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+#twiiter {
+  width: 30px;
+  height: 30px;
+}
+
+#facebook {
+  width: 15;
+  height: 20px;
+}
+
+
+/*pros formatting*/
+
 .logo {
   font-size: 24px;
+  color:  #606161;
 }
 
 .posttitle {
   font-size: 40px;
   font-weight: bold;
+  color: #033048;
 }
 
 .bodytext {
   font-size: 24px;
   font-weight: lighter;
+  color:  #606161;
 }
 
-#maincolumn {
-  width: 700px;
+a {
+  text-decoration: none;
+  color: #f9e42e;
 }
 
-#sidebar {
-  width: 240px;
+.firstcharacter {
+  float: left;
+  font-size: 75px;
+  line-height: 60px;
+  color: #033048;
 }
-footer {
 
+.sidebarheaders {
+  font-size: 32px;
+  font-weight: bolder;
+  color: #033048;
 }
 
+#list {
+  font-size: 24px; 
+  font-weight: lighter;
+  color: #606161;
+}
+
+#aboutcopy {
+  color: #606161;
+  font-size: 22px;
+  font-weight: lighter;
+}
+
+#learnmore {
+  font-size: 22px;
+  font-weight: bold;
+  color: #033048;
+}
+
+#color {
+  color: #606161;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
